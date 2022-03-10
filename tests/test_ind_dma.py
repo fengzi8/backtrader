@@ -38,6 +38,7 @@ chkind = btind.DMA
 
 def test_run(main=False):
     datas = [testcommon.getdata(i) for i in range(chkdatas)]
+    print(datas)
     testcommon.runtest(datas,
                        testcommon.TestStrategy,
                        main=main,
